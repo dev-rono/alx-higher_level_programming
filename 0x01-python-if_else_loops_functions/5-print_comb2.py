@@ -2,6 +2,7 @@
 
 for num in range(100):
     if num < 10:
-        print("0{}".format(num), end=", " if num != 99 else " ")
+        print("0{}".format(num), end=", " if num != 99)
     else:
-        print("{}".format(num), end=", " if num != 99 else " ")
+        print("{}".format(num), end=", " if num != 99)
+
