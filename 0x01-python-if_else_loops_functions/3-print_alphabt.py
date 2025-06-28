@@ -2,5 +2,5 @@
 
 for letter in "abcdefghijklmnopqrstuvwxyz":
     if (letter == 'q' or letter == 'e'):
-        continue;
-    print(letter, end="")
+        continue
+    print(f"{}".format(letter), end="")
