@@ -10,5 +10,5 @@ if num_args - 1 >= 3:
 else:
     print("argument:")
 
-for num in range(num_args):
-    print("{}: {}".format(num, argv[num+1]))
+for num in range(1, num_args + 1):
+    print("{}: {}".format(num, argv[num]))
