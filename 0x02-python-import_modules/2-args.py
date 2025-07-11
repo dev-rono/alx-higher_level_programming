@@ -5,7 +5,7 @@ if __name__ == "__main__":
 
     num_args = len(argv) - 1
 
-    if num_args - 1 >= 3:
+    if (num_args - 1 >= 3) or (num_args == 0):
         print("{} arguments:".format(num_args))
     else:
         print("{} argument:".format(num_args))
