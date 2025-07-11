@@ -3,12 +3,11 @@
 from sys import argv
 
 num_args = len(argv) - 1
-print("{}".format(num_args), end=" ")
 
 if num_args - 1 >= 3:
-    print("arguments:")
+    print("{} arguments:".format(num_args))
 else:
-    print("argument:")
+    print("{} argument:".format(num_args))
 
 for num in range(1, num_args + 1):
     print("{}: {}".format(num, argv[num]))
